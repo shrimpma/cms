@@ -4,18 +4,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=7" />
     <title>phpcms V9 - 后台管理中心</title>
-    <link href="http://test.local/phpcms/statics/css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="http://test.local/phpcms/statics/css/zh-cn-system.css" rel="stylesheet" type="text/css" />
-    <link href="http://test.local/phpcms/statics/css/table_form.css" rel="stylesheet" type="text/css" />
-    <link href="http://test.local/phpcms/statics/css/dialog.css" rel="stylesheet" type="text/css" />
-    <script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/dialog.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles1.css" title="styles1" media="screen" />
-    <link rel="alternate stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles2.css" title="styles2" media="screen" />
-    <link rel="alternate stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles3.css" title="styles3" media="screen" />
-    <link rel="alternate stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles4.css" title="styles4" media="screen" />
-    <script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/jquery.min.js"></script>
-    <script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/admin_common.js"></script>
-    <script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/styleswitch.js"></script>
+    <link href="/statics/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/statics/css/zh-cn-system.css" rel="stylesheet" type="text/css" />
+    <link href="/statics/css/table_form.css" rel="stylesheet" type="text/css" />
+    <link href="/statics/css/dialog.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript" src="/statics/js/dialog.js"></script>
+    <link rel="stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles1.css" title="styles1" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles2.css" title="styles2" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles3.css" title="styles3" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles4.css" title="styles4" media="screen" />
+    <script language="javascript" type="text/javascript" src="/statics/js/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/statics/js/admin_common.js"></script>
+    <script language="javascript" type="text/javascript" src="/statics/js/styleswitch.js"></script>
     <script type="text/javascript">
         window.focus();
         var pc_hash = 'fDvAsg';
@@ -48,9 +48,9 @@
 <body>
 <style type="text/css">
     html{_overflow-y:scroll}
-</style><script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/member_common.js"></script>
-<script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/formvalidator.js" charset="UTF-8"></script>
-<script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/formvalidatorregex.js" charset="UTF-8"></script>
+</style><script language="javascript" type="text/javascript" src="/statics/js/member_common.js"></script>
+<script language="javascript" type="text/javascript" src="/statics/js/formvalidator.js" charset="UTF-8"></script>
+<script language="javascript" type="text/javascript" src="/statics/js/formvalidatorregex.js" charset="UTF-8"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $.formValidator.initConfig({autotip:true,formid:"myform",onerror:function(msg){}});
@@ -103,11 +103,11 @@
                 <table width="100%" class="table_form">
                     <tr>
                         <td width="80">用户名</td>
-                        <td>abc<img title="锁定" src="http://test.local/phpcms/statics/images/icon/vip.gif"></td>
+                        <td>abc<img title="锁定" src="/statics/images/icon/vip.gif"></td>
                     </tr>
                     <tr>
                         <td>头像</td>
-                        <td><img src="http://test.local/phpcms/phpsso_server/uploadfile/avatar/1/1/3/90x90.jpg" onerror="this.src='http://test.local/phpcms/statics/images/member/nophoto.gif'" height=90 width=90><input type="checkbox" name="delavatar" id="delavatar" class="input-text" value="1" ><label for="delavatar">删除头像</label></td>
+                        <td><img src="/phpsso_server/uploadfile/avatar/1/1/3/90x90.jpg" onerror="this.src='/statics/images/member/nophoto.gif'" height=90 width=90><input type="checkbox" name="delavatar" id="delavatar" class="input-text" value="1" ><label for="delavatar">删除头像</label></td>
                     </tr>
                     <tr>
                         <td>密码</td>
@@ -154,11 +154,11 @@
                         <td>vip会员</td>
                         <td>
                             是否为vip会员 <input type="checkbox" name="info[vip]" value=1 checked/>
-                            过期时间 <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/js/calendar/jscal2.css"/>
-                            <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/js/calendar/border-radius.css"/>
-                            <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/js/calendar/win2k.css"/>
-                            <script type="text/javascript" src="http://test.local/phpcms/statics/js/calendar/calendar.js"></script>
-                            <script type="text/javascript" src="http://test.local/phpcms/statics/js/calendar/lang/en.js"></script><input type="text" name="info[overduedate]" id="overduedate" value="2015-10-03 10:46:00" size="21" class="date" readonly>&nbsp;<script type="text/javascript">
+                            过期时间 <link rel="stylesheet" type="text/css" href="/statics/js/calendar/jscal2.css"/>
+                            <link rel="stylesheet" type="text/css" href="/statics/js/calendar/border-radius.css"/>
+                            <link rel="stylesheet" type="text/css" href="/statics/js/calendar/win2k.css"/>
+                            <script type="text/javascript" src="/statics/js/calendar/calendar.js"></script>
+                            <script type="text/javascript" src="/statics/js/calendar/lang/en.js"></script><input type="text" name="info[overduedate]" id="overduedate" value="2015-10-03 10:46:00" size="21" class="date" readonly>&nbsp;<script type="text/javascript">
                                 Calendar.setup({
                                     weekNumbers: true,
                                     inputField : "overduedate",
@@ -178,11 +178,11 @@
                 <table width="100%" class="table_form">
                     <tr>
                         <td width="80">生日</td>
-                        <td><link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/js/calendar/jscal2.css"/>
-                            <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/js/calendar/border-radius.css"/>
-                            <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/js/calendar/win2k.css"/>
-                            <script type="text/javascript" src="http://test.local/phpcms/statics/js/calendar/calendar.js"></script>
-                            <script type="text/javascript" src="http://test.local/phpcms/statics/js/calendar/lang/en.js"></script><input type="text" name="info[birthday]" id="birthday" value="" size="10" class="date" readonly>&nbsp;<script type="text/javascript">
+                        <td><link rel="stylesheet" type="text/css" href="/statics/js/calendar/jscal2.css"/>
+                            <link rel="stylesheet" type="text/css" href="/statics/js/calendar/border-radius.css"/>
+                            <link rel="stylesheet" type="text/css" href="/statics/js/calendar/win2k.css"/>
+                            <script type="text/javascript" src="/statics/js/calendar/calendar.js"></script>
+                            <script type="text/javascript" src="/statics/js/calendar/lang/en.js"></script><input type="text" name="info[birthday]" id="birthday" value="" size="10" class="date" readonly>&nbsp;<script type="text/javascript">
                                 Calendar.setup({
                                     weekNumbers: true,
                                     inputField : "birthday",

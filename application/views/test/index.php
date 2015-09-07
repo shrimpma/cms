@@ -4,16 +4,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=7" />
     <title>phpcms V9 - 后台管理中心</title>
-    <link href="http://test.local/phpcms/statics/css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="http://test.local/phpcms/statics/css/zh-cn-system.css" rel="stylesheet" type="text/css" />
-    <link href="http://test.local/phpcms/statics/css/table_form.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles1.css" title="styles1" media="screen" />
-    <link rel="alternate stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles2.css" title="styles2" media="screen" />
-    <link rel="alternate stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles3.css" title="styles3" media="screen" />
-    <link rel="alternate stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles4.css" title="styles4" media="screen" />
-    <script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/jquery.min.js"></script>
-    <script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/admin_common.js"></script>
-    <script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/styleswitch.js"></script>
+    <link href="/statics/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="/statics/css/zh-cn-system.css" rel="stylesheet" type="text/css" />
+    <link href="/statics/css/table_form.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles1.css" title="styles1" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles2.css" title="styles2" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles3.css" title="styles3" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles4.css" title="styles4" media="screen" />
+    <script language="javascript" type="text/javascript" src="/statics/js/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/statics/js/admin_common.js"></script>
+    <script language="javascript" type="text/javascript" src="/statics/js/styleswitch.js"></script>
     <script type="text/javascript">
         window.focus();
         var pc_hash = 'fDvAsg';
@@ -63,11 +63,11 @@
                     <div class="explain-col">
 
                         注册时间：
-                        <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/js/calendar/jscal2.css"/>
-                        <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/js/calendar/border-radius.css"/>
-                        <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/js/calendar/win2k.css"/>
-                        <script type="text/javascript" src="http://test.local/phpcms/statics/js/calendar/calendar.js"></script>
-                        <script type="text/javascript" src="http://test.local/phpcms/statics/js/calendar/lang/en.js"></script><input type="text" name="start_time" id="start_time" value="" size="10" class="date" readonly>&nbsp;<script type="text/javascript">
+                        <link rel="stylesheet" type="text/css" href="/statics/js/calendar/jscal2.css"/>
+                        <link rel="stylesheet" type="text/css" href="/statics/js/calendar/border-radius.css"/>
+                        <link rel="stylesheet" type="text/css" href="/statics/js/calendar/win2k.css"/>
+                        <script type="text/javascript" src="/statics/js/calendar/calendar.js"></script>
+                        <script type="text/javascript" src="/statics/js/calendar/lang/en.js"></script><input type="text" name="start_time" id="start_time" value="" size="10" class="date" readonly>&nbsp;<script type="text/javascript">
                             Calendar.setup({
                                 weekNumbers: true,
                                 inputField : "start_time",
@@ -136,7 +136,7 @@
                     <td align="left"><input type="checkbox" value="3" name="userid[]"></td>
                     <td align="left"></td>
                     <td align="left">3</td>
-                    <td align="left"><img src="http://test.local/phpcms/phpsso_server/uploadfile/avatar/1/1/3/30x30.jpg" height=18 width=18 onerror="this.src='http://test.local/phpcms/statics/images/member/nophoto.gif'"><img title="vip会员" src="http://test.local/phpcms/statics/images/icon/vip.gif">abc<a href="javascript:member_infomation(3, '10', '')"><img src="http://test.local/phpcms/statics/images/admin_img/detail.png"></a></td>
+                    <td align="left"><img src="/phpsso_server/uploadfile/avatar/1/1/3/30x30.jpg" height=18 width=18 onerror="this.src='/statics/images/member/nophoto.gif'"><img title="vip会员" src="/statics/images/icon/vip.gif">abc<a href="javascript:member_infomation(3, '10', '')"><img src="/statics/images/admin_img/detail.png"></a></td>
                     <td align="left">abc_fool</td>
                     <td align="left">abc@126.com</td>
                     <td align="left">新手上路</td>
@@ -152,7 +152,7 @@
                     <td align="left"><input type="checkbox" value="2" name="userid[]"></td>
                     <td align="left"></td>
                     <td align="left">2</td>
-                    <td align="left"><img src="http://test.local/phpcms/phpsso_server/uploadfile/avatar/1/1/2/30x30.jpg" height=18 width=18 onerror="this.src='http://test.local/phpcms/statics/images/member/nophoto.gif'"><img title="vip会员" src="http://test.local/phpcms/statics/images/icon/vip.gif">shrimssaa<a href="javascript:member_infomation(2, '10', '')"><img src="http://test.local/phpcms/statics/images/admin_img/detail.png"></a></td>
+                    <td align="left"><img src="/phpsso_server/uploadfile/avatar/1/1/2/30x30.jpg" height=18 width=18 onerror="this.src='/statics/images/member/nophoto.gif'"><img title="vip会员" src="/statics/images/icon/vip.gif">shrimssaa<a href="javascript:member_infomation(2, '10', '')"><img src="/statics/images/admin_img/detail.png"></a></td>
                     <td align="left">shrimpma</td>
                     <td align="left">mataozhang@126.com</td>
                     <td align="left">新手上路</td>
@@ -168,7 +168,7 @@
                     <td align="left"><input type="checkbox" value="1" name="userid[]"></td>
                     <td align="left"></td>
                     <td align="left">1</td>
-                    <td align="left"><img src="http://test.local/phpcms/phpsso_server/uploadfile/avatar/1/1/1/30x30.jpg" height=18 width=18 onerror="this.src='http://test.local/phpcms/statics/images/member/nophoto.gif'">shrimss<a href="javascript:member_infomation(1, '10', '')"><img src="http://test.local/phpcms/statics/images/admin_img/detail.png"></a></td>
+                    <td align="left"><img src="/phpsso_server/uploadfile/avatar/1/1/1/30x30.jpg" height=18 width=18 onerror="this.src='/statics/images/member/nophoto.gif'">shrimss<a href="javascript:member_infomation(1, '10', '')"><img src="/statics/images/admin_img/detail.png"></a></td>
                     <td align="left">shrimpma</td>
                     <td align="left">matao@126.com</td>
                     <td align="left">新手上路</td>

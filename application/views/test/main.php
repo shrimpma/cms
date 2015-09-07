@@ -4,25 +4,25 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
     <title>人人车管理后台--newUI</title>
-    <link href="http://test.local/phpcms/statics/css/reset.css" rel="stylesheet" type="text/css"/>
-    <link href="http://test.local/phpcms/statics/css/zh-cn-system.css" rel="stylesheet" type="text/css"/>
-    <link href="http://test.local/phpcms/statics/css/dialog.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles1.css"
+    <link href="/statics/css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="/statics/css/zh-cn-system.css" rel="stylesheet" type="text/css"/>
+    <link href="/statics/css/dialog.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles1.css"
           title="styles1" media="screen"/>
-    <link rel="alternate stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles2.css"
+    <link rel="alternate stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles2.css"
           title="styles2" media="screen"/>
-    <link rel="alternate stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles3.css"
+    <link rel="alternate stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles3.css"
           title="styles3" media="screen"/>
-    <link rel="alternate stylesheet" type="text/css" href="http://test.local/phpcms/statics/css/style/zh-cn-styles4.css"
+    <link rel="alternate stylesheet" type="text/css" href="/statics/css/style/zh-cn-styles4.css"
           title="styles4" media="screen"/>
     <script language="javascript" type="text/javascript"
-            src="http://test.local/phpcms/statics/js/jquery.min.js"></script>
+            src="/statics/js/jquery.min.js"></script>
     <script language="javascript" type="text/javascript"
-            src="http://test.local/phpcms/statics/js/styleswitch.js"></script>
-    <script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/dialog.js"></script>
-    <script language="javascript" type="text/javascript" src="http://test.local/phpcms/statics/js/hotkeys.js"></script>
+            src="/statics/js/styleswitch.js"></script>
+    <script language="javascript" type="text/javascript" src="/statics/js/dialog.js"></script>
+    <script language="javascript" type="text/javascript" src="/statics/js/hotkeys.js"></script>
     <script language="javascript" type="text/javascript"
-            src="http://test.local/phpcms/statics/js/jquery.sgallery.js"></script>
+            src="/statics/js/jquery.sgallery.js"></script>
     <script type="text/javascript">
         var pc_hash = 'fDvAsg'
     </script>
@@ -94,7 +94,7 @@
         }
 
         .bg_btn {
-            background: url(http://test.local/phpcms/statics/images/admin_img/icon2.jpg) no-repeat;
+            background: url(/statics/images/admin_img/icon2.jpg) no-repeat;
             width: 32px;
             height: 32px;
         }
@@ -121,12 +121,12 @@
     </div>
 </div>
 <div class="header">
-    <div class="logo lf"><a href="http://test.local/phpcms/" target="_blank"><span class="invisible">PHPCMS内容管理系统</span></a>
+    <div class="logo lf"><a href="/" target="_blank"><span class="invisible">PHPCMS内容管理系统</span></a>
     </div>
     <div class="rt-col">
         <div class="tab_style white cut_line text-r"><a href="javascript:;" onclick="lock_screen()">
                 <!--<img
-                    src="http://test.local/phpcms/statics/images/icon/lockscreen.png"> 锁屏</a><span>|</span><a
+                    src="/statics/images/icon/lockscreen.png"> 锁屏</a><span>|</span><a
                 href="http://www.phpcms.cn" target="_blank">PHPCMS</a><span>|</span><a
                 href="http://www.phpcms.cn/license/license.php" target="_blank">授权</a><span>|</span><a
                 href="http://bbs.phpcms.cn" target="_blank">支持论坛</a><span>|</span><a href="http://v9.help.phpcms.cn/"
@@ -142,7 +142,7 @@
     <div class="col-auto">
         <div class="log white cut_line">您好！UserName [超级管理员]<span>|</span><a
                 href="?m=admin&c=index&a=public_logout">[退出]</a><span>|</span>
-            <!-- <a href="http://test.local/phpcms/" target="_blank" id="site_homepage">站点首页</a><span>|</span>
+            <!-- <a href="/" target="_blank" id="site_homepage">站点首页</a><span>|</span>
             <a href="?m=member" target="_blank">会员中心</a><span>|</span>
             <a href="?m=search" target="_blank" id="site_search">搜索</a> -->
         </div>
@@ -209,7 +209,7 @@
 </div>
 <div class="tab-web-panel hidden" style="position:absolute; z-index:999; background:#fff">
     <ul>
-        <li style="margin:0"><a href="javascript:site_select(1, '默认站点', 'http://test.local/phpcms/', '1')">默认站点</a></li>
+        <li style="margin:0"><a href="javascript:site_select(1, '默认站点', '/', '1')">默认站点</a></li>
     </ul>
 </div>
 <div class="scroll"><a href="javascript:;" class="per" title="使用鼠标滚轴滚动侧栏" onclick="menuScroll(1);"></a><a

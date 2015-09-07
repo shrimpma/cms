@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-include  'aa.php';
+
 class Test extends CI_Controller{
 
 
